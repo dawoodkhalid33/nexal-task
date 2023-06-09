@@ -1,0 +1,187 @@
+/* styles.css */
+
+/* Header */
+header {
+  padding: 20px;
+}
+
+
+#logo img {
+  /* height: 100px;  */
+  margin-top: -12px;
+  position: absolute;
+  z-index: 1000;
+}
+
+/* Section 1 */
+/* #section1 {
+  position: relative;
+} */
+
+.sec1-image {
+  width: 100%;
+}
+
+#section1 .circle {
+  position: absolute;
+  top: 120px;
+  left: 25%;
+  /* transform: translate(-50%, -50%); */
+  border-radius: 50%;
+  background-color: #FF4800;
+  text-align: center;
+  padding: 0.8rem 1.5rem;
+  color: white;
+}
+
+#chevrons {
+  width: 6rem;
+}
+
+/* Section 2 */
+#section2 {
+  padding: 50px 0;
+}
+
+#catalogue-image {
+  margin-top: -100px;
+}
+
+#form-heading {
+  text-align: center;
+  width: 75%;
+}
+
+.form-title {
+  text-align: center;
+}
+
+form {
+  background-color: rgb(80, 168, 158);
+  padding: 2rem;
+  color: white;
+  width: 75%;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #FF4800;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+/* Section 3 */
+#section3 {
+  padding: 50px 0;
+  background-color: rgb(185, 230, 255);
+}
+
+.sec3-left h1,p {
+  width: 75%;
+}
+
+.sec3-right img{
+  margin-top: 100px;
+}
+
+
+/* Footer */
+footer {
+  background-color: rgb(6, 45, 46);
+  color: white;
+  padding: 20px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+}
+
+
+@media (max-width: 769px) {
+  #logo img {
+    /* Adjust the height for smaller screens */
+    height: 70px;
+    margin-top: 10px;
+  }
+  .logo2 img {
+    height: 50px;
+  }
+  #section1 .circle {
+    top: 100px;
+  }
+  .circle h2 {
+    font-size: 1.5rem;
+  }
+  .circle h3 {
+    font-size: 1rem;
+  }
+  #chevrons {
+    width: 4rem;
+  }
+
+  #catalogue-image{
+    width: 75%;
+  }
+  #form-heading{
+    width: 100%;
+  }
+  form {
+    width: 100%;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+
+  .sec3-left h1,p {
+    width: 100%;
+  }
+
+  .sec3-right img{
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  #logo img {
+    /* Adjust the height for smaller screens */
+    height: 50px;
+    margin-top: 7px;
+  }
+  .logo2 img {
+    height: 30px;
+  }
+  #section1 .circle {
+    top: 80px;
+  }
+  .circle h2 {
+    font-size: 1rem;
+  }
+  .circle h3 {
+    font-size: 0.7rem;
+  }
+  #chevrons {
+    width: 2.5rem;
+  }
+
+  #catalogue-image{
+    width: 75%;
+    margin-top: -80px;
+  }
+  .sec3-right img{
+    margin-top: 20px;
+  }
+}
